@@ -1,0 +1,17 @@
+
+[project]
+name = "ai-code-generation-agent"
+version = "0.1.0"
+description = "AI Code Generation Agent using CrewAI"
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.121.1",
+    "crewai-tools>=0.46.0",
+    "langchain-google-genai>=2.1.5",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "hnswlib>=0.8.0",
+    "sentence-transformers>=2.2.2",
+    "numpy>=1.24.0"
+]
